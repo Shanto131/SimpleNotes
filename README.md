@@ -109,13 +109,6 @@ SimpleNotes/
 
 ---
 
-## 📷 Screenshots
-
-| Main Screen | Add Note | Edit Note |
-| :---: | :---: | :---: |
-| *(Placeholder: Add Main Screen Screenshot)* | *(Placeholder: Add Screen Screenshot)* | *(Placeholder: Edit Screen Screenshot)* |
-
----
 
 ## 🎓 Conclusion
 
