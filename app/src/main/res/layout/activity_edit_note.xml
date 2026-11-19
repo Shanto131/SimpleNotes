@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_note_title"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/edtEditNoteName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/note_name"
+        android:inputType="text"
+        android:singleLine="true"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/txtStorageType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/edtEditNoteContent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:hint="@string/note_content"
+        android:inputType="textMultiLine"
+        android:padding="12dp"
+        android:background="@android:drawable/edit_text" />
+
+    <Button
+        android:id="@+id/btnUpdateNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update_note"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="12dp" />
+
+</LinearLayout>

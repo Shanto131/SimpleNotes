@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simple Notes</string>
+    <string name="app_title">My Notes</string>
+    <string name="menu_add_note">Add Note</string>
+    <string name="menu_delete_note">Delete Note</string>
+    <string name="menu_sync_notes">Sync to SharedPreferences</string>
+    <string name="empty_notes">No notes available</string>
+
+    <string name="note_name">Note title</string>
+    <string name="note_content">Note content</string>
+    <string name="save_note">Save Note</string>
+    <string name="update_note">Update Note</string>
+    <string name="delete_note">Delete Note</string>
+    <string name="add_note_title">Add New Note</string>
+    <string name="edit_note_title">Edit Note</string>
+    <string name="delete_note_title">Delete Note</string>
+    <string name="storage_type_label">Select Storage Method:</string>
+    <string name="storage_sqlite">SQLite (Primary)</string>
+    <string name="storage_pref">SharedPreferences (Secondary)</string>
+
+    <string name="empty_note_warning">Please enter both note title and content</string>
+    <string name="empty_title_warning">Please enter a note title</string>
+    <string name="note_saved">Note saved successfully</string>
+    <string name="note_updated">Note updated successfully</string>
+    <string name="note_deleted">Note deleted successfully</string>
+    <string name="note_not_found">Note not found</string>
+    <string name="note_exists_error">A note with this title already exists</string>
+    <string name="sync_success">Notes synchronized to SharedPreferences</string>
+    <string name="sync_empty">No SQLite notes to synchronize</string>
+</resources>
